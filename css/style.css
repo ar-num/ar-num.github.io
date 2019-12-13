@@ -4,7 +4,22 @@
   Author: BootstrapMade.com
   License: https://bootstrapmade.com/license/
 */
+* {
+  box-sizing: border-box;
+}
 
+.columna {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.rowa::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
